@@ -2,7 +2,7 @@ import { Request, Response } from "express";
 import { getRepository } from "typeorm";
 import { validate } from "class-validator";
 
-import { User } from "../entities/user.entity";
+import { User } from "../entities/User";
 
 export default class UserController{
 

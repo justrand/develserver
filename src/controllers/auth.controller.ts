@@ -3,7 +3,7 @@ import * as jwt from "jsonwebtoken";
 import { getRepository } from "typeorm";
 import { validate } from "class-validator";
 
-import { User } from "../entities/user.entity";
+import { User } from "../entities/User";
 import ServerSettings from "../settings";
 
 export default class AuthController {

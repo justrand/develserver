@@ -1,4 +1,4 @@
-import { ServerSettings } from './settings';
+import ServerSettings from './settings';
 import { DevelServer } from './server';
 
  
